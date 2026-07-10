@@ -26,7 +26,12 @@ eksctl create cluster \
 ```
 
 
-## Create jenkins job and run it using Jenkinsfile in the current repo itself
+## Check nodes
+<img width="1182" height="101" alt="image" src="https://github.com/user-attachments/assets/28b850e2-6a5a-4a4d-a423-0155433143ff" />
+
+
+
+## Create jenkins job as per Jenkinsfile in the current repo
 <img width="858" height="227" alt="image" src="https://github.com/user-attachments/assets/15443c0e-54e7-428d-8bbd-8bc0cd50dbbb" />  
 <br /><br /><br />
 
