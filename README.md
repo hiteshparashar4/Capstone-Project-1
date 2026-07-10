@@ -10,6 +10,21 @@
 - tag image `docker tag my-app:1.0 407247182709.dkr.ecr.ap-south-1.amazonaws.com/my-app:1.0`
 <br /><br /><br />
 
+## Create k8s cluster using `eksctl`
+- make sure aws admin creds are configured
+- this will also setup `kubeconfig`
+```
+eksctl create cluster \
+—name demo-cluster \
+—version 1.27 \
+—region eu-central-1 \
+—nodegroup-name demo-nodes \
+—node-type t2.micro \
+—nodes 2 \
+—nodes-min 1 \
+—nodes-max 3
+```
+
 
 ## Create jenkins job and run it using Jenkinsfile in the current repo itself
 <img width="858" height="227" alt="image" src="https://github.com/user-attachments/assets/15443c0e-54e7-428d-8bbd-8bc0cd50dbbb" />  
