@@ -1,4 +1,4 @@
-# Capstone-Project-1
+# Capstone-Project-1 
 
 ## Create ECR private registry
 <img width="1609" height="251" alt="image" src="https://github.com/user-attachments/assets/3d4d95ba-eb53-45a8-8c08-d2ff9f491bd1" />  
